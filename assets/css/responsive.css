@@ -689,7 +689,25 @@
   }
 }
 
-@media only screen and (max-width: 520px) {
+@media(max-width: 572px) {
+  .row.tf-filter-container.respo {
+    padding: 0 40px !important;
+  }
+
+  .heading.repo {
+    font-size: 30px;
+  }
+
+  .button.repo {
+    font-size: 18px;
+  }
+
+  .button.repo i {
+    font-size: 29px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
   .tf-slider-item {
     padding: 147px 0 60px 0;
   }
@@ -697,9 +715,11 @@
   h4 {
     font-size: 29px;
   }
+
   h2 {
     font-size: 34px;
   }
+
   .tf-heading .button {
     font-size: 18px;
   }
@@ -724,5 +744,47 @@
     right: 60px;
   }
 }
+@media(max-width: 572px) {
+  .row.tf-filter-container.respo {
+    padding: 0 28px !important;
+  }
 
+  .heading.repo {
+    font-size: 26px;
+  }
+
+  .button.repo {
+    font-size: 16px;
+  }
+
+  .button.repo i {
+    font-size: 26px;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */
+@media(max-width: 390px) {
+  .row.tf-filter-container.respo {
+    padding: 0 28px !important;
+  }
+
+  .heading.repo {
+    font-size: 24px;
+  }
+
+  .button.repo {
+    font-size: 15px;
+  }
+  .button.repo i {
+    font-size: 24px;
+  }
+  .sc-product .top .tag.repo {
+   font-size: 17px;
+  }
+  .sc-product.style2 .top .wish-list.repo {
+    width: 40px;
+    height: 40px;
+  }
+  .sc-product .bottom-style2 .product-button.repo a {
+    width: 130px;
+  }
+}
